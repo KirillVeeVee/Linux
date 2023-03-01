@@ -7,6 +7,7 @@ using namespace std;
 
 void Monitor::Rescan() {
 
+
     std::deque<Process> newProcessesPool;
     std::map<std::string,Pointer> newProcessByName;
     std::map<int,Pointer> newProcessByPID;
@@ -27,8 +28,8 @@ void Monitor::Rescan() {
     }
 
     processPool=std::move(newProcessesPool);
-    processByName=newProcessByName;
-    processByPID=newProcessByPID;
+    processByName=std::move(newProcessByName);
+    processByPID=std::move(newProcessByPID);
 }
 
 void Monitor::KillProcess(int PID) {
@@ -58,7 +59,6 @@ Monitor::Monitor() {
 }
 
 void Monitor::ShowAllProcesses(ostream &output) const {
-
     output<<"List of processes: "<<'\n';
     for(const auto& proc:processPool)
         output<<proc.GetPID()<<" "<<proc.GetName()<<'\n';
