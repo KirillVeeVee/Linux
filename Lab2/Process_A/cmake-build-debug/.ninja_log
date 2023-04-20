@@ -1,0 +1,5 @@
+# ninja log v5
+0	250	1677759740629291978	CMakeFiles/Process_A.dir/main.cpp.o	86f7c6a6fee0d7e1
+250	299	1677759740675939051	Process_A	c8100b863c7db06a
+1	261	1679058614992027390	CMakeFiles/Process_A.dir/main.cpp.o	86f7c6a6fee0d7e1
+261	314	1679058615042027142	Process_A	c8100b863c7db06a

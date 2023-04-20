@@ -1,0 +1,3 @@
+/home/kayvee/Desktop/C++/Linux/Lab2/Process_P/cmake-build-debug/CMakeFiles/Process_P.dir
+/home/kayvee/Desktop/C++/Linux/Lab2/Process_P/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kayvee/Desktop/C++/Linux/Lab2/Process_P/cmake-build-debug/CMakeFiles/rebuild_cache.dir
